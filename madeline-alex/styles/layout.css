@@ -8,6 +8,16 @@ main{
 .icon-menu li{
   width: 100%;
   display: block;
-  float: left;
   padding: 10px; 
+}
+section{
+  max-width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.byline, .byline a, .byline address, .byline time{
+  color: darkgray;
+  display: inline;
+  text-decoration: none;
 }
