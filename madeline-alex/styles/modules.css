@@ -1,9 +1,38 @@
 img {
-  width: 60%
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+   }
+
+.icon-menu li {
+  display: none;
+}
+.icon-menu li a {
+  color: grey;
+  text-decoration: none;
+}
+
+.icon-menu:hover li{
+	display:block;
 }
 
 @media screen and (min-width: 700px) {
 	img{
     max-width: 300px;
+    float: right;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .icon-menu li{
+    display: inline;
+  }
+  .icon-menu:hover li{
+    display:inline;
   }
 }
