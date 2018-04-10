@@ -30,6 +30,7 @@
 .icon-menu:hover li{
 	display:block;
 }
+
 .icon-home:before {
 	content: "\e908";
 }
@@ -76,10 +77,11 @@
 	content: "\e907";
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 640px) {
 	.icon-menu li{
 		display: block;
 		float: left;
 		width: 40%
 	}
 }
+
