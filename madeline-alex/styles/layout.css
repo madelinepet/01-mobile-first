@@ -1,0 +1,13 @@
+.site-header{
+  background-color: #fff198;
+  width: 100%
+}
+main{
+  background-color: #ffff;
+}
+.icon-menu li{
+  width: 100%;
+  display: block;
+  float: left;
+  padding: 10px; 
+}
